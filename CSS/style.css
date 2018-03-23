@@ -1,0 +1,146 @@
+/* Portfolio V1 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+}
+
+#page1 {
+    background-repeat: no-repeat;
+    background: url('/CSS/images/bg.jpg');
+    background-size: 100%;
+    height: 100%;
+    background-position: center center;
+}
+
+
+nav {
+    font-family: Raleway-medium, sans-serif;
+    font-size: 13px;
+    margin: 34px 34px 34px 810px;
+    margin: 32px;
+    position: fixed;
+    top: 5px;
+    left: 675px;
+}
+
+#logo {
+    margin: 10px 5px 10px;
+    display: inline-block;
+    float: left;
+}
+
+#branding {
+    margin: 32px 2px;
+    font-family: Raleway-regular, sans-serif;
+    /*float: left;*/
+    display: inline-block;
+}
+
+#name {
+    font-family: Raleway-medium, sans-serif;
+}
+
+#description {
+    padding: 2px;
+    font-size: 10px;
+    font-family: Raleway-regular, sans-serif;
+}
+
+nav ul li {
+    padding: 0 5px 0;
+}
+
+nav ul li a:link,
+nav ul li a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+section {
+    clear: both;
+    margin: 40px 10px;
+    display: block;
+    text-align: center;
+    font-family: Raleway-medium, sans-serif;
+    font-size: 20px;
+}
+
+/*footer {
+    margin: 200px;
+    margin-bottom: 0;
+    text-align: center;
+}*/
+
+ .clearfix:after {
+    content: ".";
+    display: table;
+    clear: both;
+    visibility: hidden;
+}
+
+/* Page 2 Starts Here */
+    
+#page2 { 
+    height: 100%;
+    background-color: #f3f3f3;
+    margin-top: -50px;
+}
+
+header h2 {
+    font-family: Raleway-medium, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    margin: 50px 50px 0px 50px;
+    padding: 15px;
+}
+    
+header p#headline {
+    font-family: Raleway-Regular, sans-serif;
+    text-align: center;
+}
+
+.olivia {
+    text-align: left;
+    display: inline-block;
+    float: left;
+    width: 325px;
+    margin: 69px auto 30px 150px;
+}
+
+#olivia-header {
+    font-family: Raleway-Medium, sans-serif;
+    font-size: 1em;
+    color: #2aa363;
+    padding-bottom: 5px;
+}
+
+#code-type {
+    font-family: Raleway-Regular, sans-serif;
+    font-size: 0.75em;
+    color: #a0ad9f; 
+    padding-bottom: 5px;
+}
+
+#olivia-desc {
+    font-family: Raleway-Light, sans-serif;
+    font-size: 0.85em;
+    color: #a0ad9f
+}
+
+#laptop {
+    display: inline-block;
+    margin: 42px 225px 42px auto;
+    float: right;
+}
+
+
+

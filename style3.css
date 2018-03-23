@@ -1,0 +1,201 @@
+/* Portfolio V3 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body, html {
+    height: 100%;
+}
+
+.hero {
+    padding: 2px;
+    text-align: center;
+    font-size: 35px;
+    font-family: Raleway-regular, sans-serif;
+    color: black;
+}
+
+header {
+    /*background-image:url('CSS/images/background.jpg');*/
+    background-image:url('/CSS/images/bg.jpg');
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+
+section {
+    display:inline-block;
+}
+
+#logo {
+    margin: 10px 5px 10px;
+    display: inline-block;
+    float: left;
+}
+
+#branding {
+    margin: 20.7px 2px;
+    font-family: Raleway-regular, sans-serif;
+    font-size: 9px;
+    /*float: left;*/
+    display: inline-block;
+}
+
+#name {
+    font-family: Raleway-medium, sans-serif;
+    font-size: 12px;
+    margin: 0px;
+}
+
+p #description {
+    font-size: 5px;
+}
+
+.navig {
+    float: right;
+    font-family: Raleway-medium, sans-serif;
+    font-size: 13px;
+    margin: 34px 20px auto;
+    /*margin: 32px;
+    position: fixed;
+    top: 5px;
+    left: 675px;*/
+}
+
+.navig ul li {
+    padding: 0 5px 0;
+}
+
+.navig ul li a:link,
+.navig ul li a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+.navig ul li a:hover {
+    border-bottom: 1px dashed black;
+}
+.navig ul li {
+    display: inline;
+}
+
+.logo {
+    
+}
+
+.clearfix:after {
+    content: ".";
+    display: table;
+    clear: both;
+    visibility: hidden;
+}
+
+section #portfolio {
+    display: block;
+}
+
+.container h3 {
+    font-family: Raleway-bold, sans-serif;
+    margin-top: 40px;
+}
+
+#pg-desc {
+    font-family: Raleway-light, sans-serif;
+    margin-top: -5px;
+}
+
+#top-ex h6 {
+    font-family: Raleway-regular, sans-serif;
+    font-size: 15px;
+    color: #2aa363;
+    margin-top: 50px;
+}
+
+#top-ex #tools {
+   font-family: Raleway-light, sans-serif; 
+    font-size: 10px;
+    margin-top: -7px;
+}
+
+#top-ex-desc {
+    font-family: Raleway-light, sans-serif;
+    font-size: 12px;
+    margin-top: -10px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+.laptop-mockup {
+    margin-top: 30px;
+}
+
+
+.projects {
+    opacity: 0.7;
+    margin-top: 40px;
+}
+
+#portfolio:after {
+    width: 60%;
+    height: 1px;
+    background-color: #cccccc;
+    display: block;
+    content: " ";
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+#photography {
+    /*background-color: #eae9e9;*/
+}
+
+#photography-contact {
+    font-family: Raleway-light, sans-serif;
+}
+
+.image-tiles {
+    margin: 0px auto;
+    padding: 0px;
+}
+
+#photography:after {
+    width: 60%;
+    height: 1px;
+    background-color: #cccccc;
+    display: block;
+    content: " ";
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+#contact {
+    background-color: #7d9494;
+}
+
+.top-sub {
+    margin: 0 auto;
+}
+
+.form-group {
+    font-family: Raleway-regular, sans-serif;
+    font-size: 15px;
+}
+
+::placeholder {
+    font-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
