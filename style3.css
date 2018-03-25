@@ -161,6 +161,10 @@ section #portfolio {
     padding: 0px;
 }
 
+img {
+    padding-bottom: 4px;
+}
+
 #photography:after {
     width: 60%;
     height: 1px;
@@ -172,7 +176,7 @@ section #portfolio {
 }
 
 #contact {
-    background-color: #7d9494;
+    background-color: #eeeeee;
 }
 
 .top-sub {
