@@ -190,10 +190,24 @@ img {
 
 ::placeholder {
     font-size: 12px;
+    color: #eeeeee;
 }
 
+.btn-primary {
+    border-color: #eeeeee;
+    background-color: white;
+    color: black;
+}
 
+.form-control:focus {
+    border-color: black;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
 
+.btn-primary:hover {
+    border-color: black;
+    background-color: black;
+}
 
 
 
